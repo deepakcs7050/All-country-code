@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+
+ngx-intl-tel-input input {
+    height: 44px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #c7cace;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+ngx-intl-tel-input input:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+}
+
+.iti .iti__country-list {
+    box-shadow: none;
+    font-size: 14px;
+    margin-left: 0;
+    width: 325px;
+}
